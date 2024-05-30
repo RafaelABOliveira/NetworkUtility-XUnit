@@ -14,5 +14,10 @@ namespace NetworkUtility.Ping
             //BuildPacket()
             return "Success: Ping Sent !";
         }
+
+        public int PingTimeout(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
